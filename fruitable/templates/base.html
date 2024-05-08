@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Title -->
+    <title>
+        {% block title %}
+        Fruit Table
+        {% endblock title %}
+    </title>
+    <!-- Title -->
+
+    <!-- Links -->
+        {% include 'components/_links.html' %}
+    <!-- Links -->
+
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+{% include 'layout/header.html' %}
+</header>
+<!-- Header -->
+<main>
+{% block main %}
+
+{% endblock main%}
+</main>
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+<!-- Footer -->
+<footer>
+{% include 'layout/footer.html' %}
+</footer>
+<!-- Footer -->
+
+<!-- Scripts -->
+{% include 'components/_scripts.html' %}
+<!-- Scripts -->
+
+</body>
+</html>
