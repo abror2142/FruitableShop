@@ -1,0 +1,15 @@
+# DataBase files
+*db.sqlite3
+*db.sqlite
+
+# Virtual Environment
+*venv
+*.venv
+
+# Dotenv files
+*env
+*.env
+
+# MacOS files
+*.idea
+*.DS_Store
